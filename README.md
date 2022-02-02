@@ -2,7 +2,7 @@
 
 This repo houses all my Notebooks for the Security Analysis Class[MSBX 5500] of 2022
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Adrija-B/Security-Notebooks/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Adrija-B/DataScience-Notebooks/HEAD)
 
 The built image is hosted on [Docker-Hub](https://hub.docker.com/layers/190215741/adrijab/my-datascience-notebook/latest/images/sha256-b8ee56e16d518c1fbbb712a55e98d620456f3cc36ae7b2f52fcc3aab38685fc3?context=repo).
 
