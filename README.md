@@ -19,7 +19,7 @@ docker build --rm -t adrijab/my-datascience-notebook .
 Run:
 
 ```bash
-docker run --rm -it -p 8888:8888 adrijab/my-datascience-notebook
+docker run --rm -it -p -v ${pwd}:/home/jovyan/work 8888:8888 adrijab/my-datascience-notebook
 # - Publishes on port 8888
 # - Can also be opened using localhost:8888
 ```
