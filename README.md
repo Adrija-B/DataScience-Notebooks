@@ -20,6 +20,8 @@ Run:
 
 ```bash
 docker run --rm -it -p 8888:8888 adrijab/my-datascience-notebook
+
+docker run --rm -it -p -v $/Users/Adrija/Documents/GitHub/Security-Notebooks:/home/jovyan/work 8888:8888 adrijab/my-datascience-notebook
 # - Publishes on port 8888
 # - Can also be opened using localhost:8888
 ```
@@ -30,5 +32,5 @@ Build and run:
 ```bash
 docker-compose up
 # This command publishes through port 8888 and custom image adrijab/my-datascience-notebook, as defined in the docker-compose.yml file
-#Run this command from the repository terminal/command prompt to build your own container 
+#Run this command from the repository terminal/command prompt to build your own container
 ```
